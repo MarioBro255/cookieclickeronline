@@ -3166,7 +3166,7 @@ flex-direction: column;
 	flex-wrap: wrap;
 	width: 90%;
 	max-width: 800px;
-	background-color: #fff;
+	background: #fff;
 }
 .left-box{
 	padding: 50px;
