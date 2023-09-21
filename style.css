@@ -889,7 +889,7 @@ input[type=range]:active::-ms-thumb,input[type=range]:hover::-ms-thumb {backgrou
 	position:absolute;
 	z-index:1000000000;
 	display:none;
-	//transition:left 0.1s ease-out,right 0.1s ease-out,top 0.1s ease-out,bottom 0.1s ease-out;
+	transition:left 0.1s ease-out,right 0.1s ease-out,top 0.1s ease-out,bottom 0.1s ease-out;
 }
 #tooltip
 {
@@ -2018,7 +2018,7 @@ from {top:20px;opacity:0;}
 	background-image:url(img/ascendSlot.png);
 	background-position:88px 0px;
 }
-/*.crate.heavenly:after
+.crate.heavenly:after
 {
 	content:'';
 	position:absolute;
@@ -2030,7 +2030,7 @@ from {top:20px;opacity:0;}
 	background:#f00;
 	border-radius:30px;
 	z-index:-10;
-}*/
+}
 #menu .crate.heavenly {margin:12px;}
 /*#menu .crate.heavenly:nth-child(even) {margin-top:16px;margin-bottom:8px;}
 #menu .crate.heavenly:nth-child(3n) {margin-right:16px;margin-left:8px;}*/
@@ -2072,7 +2072,7 @@ from {top:20px;opacity:0;}
 
 .achievement
 {
-	/*opacity:0.4;*/
+	opacity:0.4;
 }
 .crate.enabled
 {
@@ -2080,7 +2080,7 @@ from {top:20px;opacity:0;}
 }
 .crate.heavenly.enabled:before
 {
-	/*background-position:0px -60px;*/
+	background-position:0px -60px;
 	background-position:0px 0px;
 }
 .crate.heavenly:hover:before
