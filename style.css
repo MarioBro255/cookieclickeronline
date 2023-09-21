@@ -3179,7 +3179,6 @@ flex-direction: column;
 	padding: 50px;
 	flex-basis: 50%;
 	flex-grow: 1;
-	justify-content: right;
 }
 .inputbox{
 	width: 100%;
