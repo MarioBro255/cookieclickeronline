@@ -3159,6 +3159,14 @@ flex-direction: column;
 	font-weight: 500;	
 	margin-bottom: 400px;
 }
+.signup-box{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 90%;
+	max-width: 800px;
+	background-color: #fff;
+}
 .left-box{
 	padding: 50px;
 	background: #6b00d5;
