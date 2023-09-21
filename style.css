@@ -3162,7 +3162,6 @@ flex-direction: column;
 }
 .signup-box{
 	display: flex;
-	align-items: left;
 	justify-content: center;
 	flex-wrap: wrap;
 	width: 90%;
