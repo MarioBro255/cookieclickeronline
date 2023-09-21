@@ -3180,3 +3180,11 @@ flex-direction: column;
 	flex-basis: 50%;
 	flex-grow: 1;
 }
+.inputbox{
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 10px solid #fff;
+	outline: none; 
+	font-size: 12px;
+}
