@@ -3159,3 +3159,15 @@ flex-direction: column;
 	font-weight: 500;	
 	margin-bottom: 400px;
 }
+.left-box{
+	padding: 50px;
+	background: #6b00d5;
+	flex-basis: 50%;
+	flex-grow: 1;
+	color: #fff;
+}
+.right-box{
+	padding: 50px;
+	flex-basis: 50%;
+	flex-grow: 1;
+}
