@@ -908,7 +908,7 @@ input[type=range]:active::-ms-thumb,input[type=range]:hover::-ms-thumb {backgrou
 }
 #tooltip .data
 {
-	/*border-top:1px solid rgba(255,255,255,0.25);*/
+	border-top:1px solid rgba(255,255,255,0.25);
 	padding:4px 0px;
 	font-size:80%;
 }
