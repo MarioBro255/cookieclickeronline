@@ -3163,7 +3163,6 @@ flex-direction: column;
 .signup-box{
 	display: flex;
 	justify-content: center;
-	flex-wrap: wrap;
 	width: 90%;
 	max-width: 800px;
 	background: #fff;
