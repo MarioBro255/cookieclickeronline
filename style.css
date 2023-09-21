@@ -3155,7 +3155,7 @@ align-items: center;
 flex-direction: column;
 }
 .hero h1{
-	color: fff;
+	color: #fff;
 	font-weight: 500;	
 	margin-bottom: 400px;
 }
