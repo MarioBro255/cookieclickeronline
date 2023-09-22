@@ -3200,5 +3200,10 @@ flex-direction: column;
 }
 .right-box a{
 	-webkit-text-fill-color: #000;
-
+	display: block;
+	width: 100%;
+	margin: 20px 0;
+	font-size: 14px;
+	padding: 15px 30px;
+	
 }
