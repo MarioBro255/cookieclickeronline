@@ -40,40 +40,13 @@ Feel free to alter this code to your liking, but please do not re-host it, do no
 
 </head>
 <body>
- <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
-</head>
-<body>
-  <div id="my-signin2"></div>
-  <script>
-    function onSuccess(googleUser) {
-      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-    }
-    function onFailure(error) {
-      console.log(error);
-    }
-    function renderButton() {
-      gapi.signin2.render('my-signin2', {
-        'scope': 'profile email',
-        'width': 240,
-        'height': 50,
-        'longtitle': true,
-        'theme': 'dark',
-        'onsuccess': onSuccess,
-        'onfailure': onFailure
-      });
-    }
-  </script>
 
-  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
-</body>
 <div id="wrapper">
 
 	<div id="topBar">
 		<div><b>Cookie Clicker</b>&trade; &copy; <a href="http://orteil.dashnet.org" target="_blank" id="topbarOrteil">Orteil</a>, 2019 - <a href="http://dashnet.org" target="_blank" id="topbarDashnet"></a></div>
 		<div><a href="" target="_blank" id="topbarTwitter"></a></div>
 		<div><a href="http://orteil42.tumblr.com" target="_blank" id="topbarTumblr"></a></div>
-		<div><a href="Signup.html" target="_blank" id="signup">Signup</a></div>
-		<div><a href="login.html" target="_blank" id="login">Login</a></div>
 		<!--<div><a href="http://forum.dashnet.org" target="_blank">Official forum</a></div>-->
 		<div style="position:relative;"><div></div><a href="" target="_blank" style="padding-left:16px;" id="topbarDiscord"></a></div>
 		<div style="position:relative;"><div></div><a class="blueLink" href="" target="_blank" style="padding-left:12px;" id="topbarMerch"></a></div>
