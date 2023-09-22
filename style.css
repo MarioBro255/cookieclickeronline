@@ -3198,6 +3198,6 @@ flex-direction: column;
 	cursor: pointer;
 }
 .right-box a{
-	color: #000;
+	-webkit-text-fill-color: #000;
 
 }
