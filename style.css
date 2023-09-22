@@ -3157,8 +3157,9 @@ flex-direction: column;
 }
 .hero h1{
 	color: #fff;
-	font-weight: 100000;	
+	font-weight: 500;	
 	margin-bottom: 40px;
+	font-size: 30;
 }
 .signup-box{
 	display: flex;
