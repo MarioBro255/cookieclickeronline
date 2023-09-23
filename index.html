@@ -1,32 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="google-signin-client_id" content="AIzaSyCWXfhXMFAgpRSRM0Y2xQ1lUImRiDyn9Mw.apps.googleusercontent.com">
-	  </head>
-	  <body>
-		<div id="my-signin2"></div>
-		<script>
-		  function onSuccess(googleUser) {
-			console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-		  }
-		  function onFailure(error) {
-			console.log(error);
-		  }
-		  function renderButton() {
-			gapi.signin2.render('my-signin2', {
-			  'scope': 'profile email',
-			  'width': 240,
-			  'height': 50,
-			  'longtitle': true,
-			  'theme': 'dark',
-			  'onsuccess': onSuccess,
-			  'onfailure': onFailure
-			});
-		  }
-		</script>
-	  
-		<script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
-	  </body>
+	
 <head>
 <script type="text/javascript">
     window.cookieconsent_options = {"message":"Unsurprisingly, this website uses cookies for ads and traffic analysis.","dismiss":"Got it!","learnMore":"Learn more","link":"http://orteil.dashnet.org/cookieconsentpolicy.html","target":"_blank","theme":"http://orteil.dashnet.org/cookieconsent.css","domain":"dashnet.org"};
