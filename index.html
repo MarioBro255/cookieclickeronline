@@ -1,6 +1,28 @@
 <!DOCTYPE html>
 <html>
-
+<body><script type="module">
+	// Import the functions you need from the SDKs you need
+	import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+	import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+	// TODO: Add SDKs for Firebase products that you want to use
+	// https://firebase.google.com/docs/web/setup#available-libraries
+  
+	// Your web app's Firebase configuration
+	// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+	const firebaseConfig = {
+	  apiKey: "AIzaSyA8UcfaOGw_mQmQvKK7vQm9i-UzbBh7jY8",
+	  authDomain: "cookieclickeronline.firebaseapp.com",
+	  projectId: "cookieclickeronline",
+	  storageBucket: "cookieclickeronline.appspot.com",
+	  messagingSenderId: "272423540732",
+	  appId: "1:272423540732:web:707cd5ea0cab31e6390479",
+	  measurementId: "G-YXPEQQ8D1P"
+	};
+  
+	// Initialize Firebase
+	const app = initializeApp(firebaseConfig);
+	const analytics = getAnalytics(app);
+  </script></body>
 <head>
 <script type="text/javascript">
     window.cookieconsent_options = {"message":"Unsurprisingly, this website uses cookies for ads and traffic analysis.","dismiss":"Got it!","learnMore":"Learn more","link":"http://orteil.dashnet.org/cookieconsentpolicy.html","target":"_blank","theme":"http://orteil.dashnet.org/cookieconsent.css","domain":"dashnet.org"};
