@@ -5,7 +5,15 @@
 	<title>CookieClicker Leaderboard</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
+<script>
+    function img_pathUrl(input){
+        $('#img_url')[0].src = (window.URL ? URL : webkitURL).createObjectURL(input.files[0]);
+    }
 
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<img src="" id="img_url" alt="your image">
+<br>
+<input type="file" id="img_file" onChange="img_pathUrl(this);">
 <body>
 	<head>
 		<link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
@@ -20,11 +28,8 @@
 		  article, aside, figure, footer, header, hgroup, 
 		  menu, nav, section { display: block; }
 		</style>
-		</head>
-		<body>
-		  <input type='file' onchange="readURL(this);" />
-			<img id="blah" src="#" alt="" />
-		</body>
+	</head>
+
 <div class="wrapper">
 	<div class="lboard_section">
 		<div class="lboard_tabs">

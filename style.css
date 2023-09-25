@@ -3146,3 +3146,9 @@ MOBILE
 {display:block;}
 
 /**{overflow:hidden!important;}*/
+#img_url {
+  background: #ddd;
+  width:100px;
+  height: 90px;
+  display: block;
+}
