@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Leader Board using HTML CSS and Javascript</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<head>
+		<link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+		<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+		<meta charset=utf-8 />
+		<title>JS Bin</title>
+		<!--[if IE]>
+		  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<style>
+		  article, aside, figure, footer, header, hgroup, 
+		  menu, nav, section { display: block; }
+		</style>
+		</head>
+		<body>
+		  <input type='file' onchange="readURL(this);" />
+			<img id="blah" src="#" alt="your image" />
+		</body>
+<div class="wrapper">
+	<div class="lboard_section">
+		<div class="lboard_tabs">
+			<div class="tabs">
+				<ul>
+					<li data-li="today">Today</li>
+					<li class="active" data-li="month">Month</li>
+					<li data-li="year">Year</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="lboard_wrap">
+			<div class="lboard_item today" style="display: none;">
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_1.png" alt="picture_1">
+					</div>
+					<div class="name_bar">
+						<p><span>1.</span> ?????</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 0%"></div>
+						</div>
+					</div>
+					<div class="points">
+						none
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_2.png" alt="picture_2">
+					</div>
+					<div class="name_bar">
+						<p><span>2.</span>??????</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 0%"></div>
+						</div>
+					</div>
+					<div class="points">
+						none
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_3.png" alt="picture_2">
+					</div>
+					<div class="name_bar">
+						<p><span>3.</span>??????</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 0%;"></div>
+						</div>
+					</div>
+					<div class="points">
+						none
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_4.png" alt="picture_1">
+					</div>
+					<div class="name_bar">
+						<p><span>4.</span>???????</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 0%"></div>
+						</div>
+					</div>
+					<div class="points">
+						none
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_5.png" alt="picture_2">
+					</div>
+					<div class="name_bar">
+						<p><span>5.</span>???????</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 0%"></div>
+						</div>
+					</div>
+					<div class="points">
+						none
+					</div>
+				</div>
+			</div>
+			<div class="lboard_item month" style="display: block;">
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_2.png" alt="picture_2">
+					</div>
+					<div class="name_bar">
+						<p><span>1.</span>???????</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 0%"></div>
+						</div>
+					</div>
+					<div class="points">
+						none
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_3.png" alt="picture_3">
+					</div>
+					<div class="name_bar">
+						<p><span>2.</span>???????</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 0%"></div>
+						</div>
+					</div>
+					<div class="points">
+						none
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_1.png" alt="picture_1">
+					</div>
+					<div class="name_bar">
+						<p><span>3.</span>???????</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 0%;"></div>
+						</div>
+					</div>
+					<div class="points">
+						none
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_5.png" alt="picture_5">
+					</div>
+					<div class="name_bar">
+						<p><span>4.</span>???????</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 0%"></div>
+						</div>
+					</div>
+					<div class="points">
+						none
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_4.png" alt="picture_4">
+					</div>
+					<div class="name_bar">
+						<p><span>5.</span>???????</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 0%"></div>
+						</div>
+					</div>
+					<div class="points">
+						none
+					</div>
+				</div>
+			</div>
+			<div class="lboard_item year" style="display: none;">
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_5.png" alt="picture_5">
+					</div>
+					<div class="name_bar">
+						<p><span>1.</span>???????</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 0%"></div>
+						</div>
+					</div>
+					<div class="points">
+						none
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_4.png" alt="picture_4">
+					</div>
+					<div class="name_bar">
+						<p><span>2.</span>??????</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 0%"></div>
+						</div>
+					</div>
+					<div class="points">
+						none
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_3.png" alt="picture_3">
+					</div>
+					<div class="name_bar">
+						<p><span>3.</span>???????</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 0%;"></div>
+						</div>
+					</div>
+					<div class="points">
+						none
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_1.png" alt="picture_1">
+					</div>
+					<div class="name_bar">
+						<p><span>4.</span>???????</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 0%"></div>
+						</div>
+					</div>
+					<div class="points">
+						none
+					</div>
+				</div>
+				<div class="lboard_mem">
+					<div class="img">
+						<img src="pic_2.png" alt="picture_2">
+					</div>
+					<div class="name_bar">
+						<p><span>5.</span>???????</p>
+						<div class="bar_wrap">
+							<div class="inner_bar" style="width: 0%"></div>
+						</div>
+					</div>
+					<div class="points">
+						none
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+
+<script src="scripts.js"></script>
+</body>
+</html>
